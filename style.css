@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug header{
+    height: 100px;
+    background-color: red;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+.debug .uno,.due,.tre,.quattro,.cinque,.sei{
+  border: 3px dotted black;
+}
+main{
+  width: 80%;
+  margin: 0 auto;
+}
+button{
+  background-color: white;
+  border: white solid 3px;
+  border-radius: 25%;
+}
+h1{
+  text-align: center;
+  margin-top: 10%;
+  background-color: red;
+  height: 200px;
+  color: white;
+}
+
+h3{
+  color: blue;
+}
+
+.uno{
+  margin-top: 20%;
+  background-color: yellow;
+  height: 300px;
+}
+.due{
+  background-color: yellow;
+  height: 300px;
+  margin-top: 10px;
+}
+.tre{
+  background-color: yellow;
+  height: 300px;
+  margin-top: 10px;
+}
+.quattro{
+  background-color: yellow;
+  height: 300px;
+  margin-top: 30%;
+}
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+}
+.cinque{
+  background-color: grey;
+  height: 300px;
+  margin-top: 10%;
+}
+
+.sei{
+  background-color: lightgreen;
+  height: 100px;
+}
