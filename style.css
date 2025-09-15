@@ -66,3 +66,15 @@ body {
   max-width: 600px;
   margin: 0 auto 2rem;
 }
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4rem 2rem;
+}
+
+.section_one{
+    background: #f6f6f6;;
+}
