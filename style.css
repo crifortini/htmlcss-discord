@@ -32,6 +32,21 @@ h3{
   color: blue;
 }
 
+nav{
+  display: inline;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.discord{
+  background-color: black;
+  color: white;
+  border-radius: 25%;
+}
+
 .uno{
   margin-top: 20%;
   background-color: yellow;
