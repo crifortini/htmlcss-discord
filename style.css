@@ -131,3 +131,33 @@ body {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
+
+
+.registrati-btn{
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background-color: #5865f2;
+  color: white;
+  border: none;
+}
+
+
+.footer-links{
+  display: flex;
+  gap: 3rem;
+}
+
+
+.footer-links div h4 {
+  margin-bottom: 0.5rem;
+}
+
+
+.footer-links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
