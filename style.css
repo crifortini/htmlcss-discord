@@ -1,83 +1,28 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.debug .uno,.due,.tre,.quattro,.cinque,.sei{
-  border: 3px dotted black;
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #23272a;
 }
-main{
-  width: 80%;
-  margin: 0 auto;
-}
-button{
-  background-color: white;
-  border: white solid 3px;
-  border-radius: 25%;
-}
-h1{
+
+.hero {
+  background-color: #404eed;
+  color: white;
   text-align: center;
-  margin-top: 10%;
-  height: 100px;
-  color: white;
+  padding: 4rem 2rem;
 }
 
-h3{
-  color: blue;
-}
-
-nav{
-  display: inline;
-}
-
-a{
-  color: white;
-  text-decoration: none;
-}
-
-header{
-      background-image: url(./img/jumbo.png);
-}
-.discord{
-  background-color: black;
-  color: white;
-  border-radius: 25%;
-}
-
-.uno{
-  margin-top: 20%;
-  background-color: yellow;
-  height: 300px;
-}
-.due{
-  background-color: yellow;
-  height: 300px;
-  margin-top: 10px;
-}
-.tre{
-  background-color: yellow;
-  height: 300px;
-  margin-top: 10px;
-}
-.quattro{
-  background-color: yellow;
-  height: 300px;
-  margin-top: 30%;
-}
-
-footer{
-    width: 80%;
-    margin: 0 auto;
-}
-.cinque{
-  background-color: black;
-  height: 300px;
-  margin-top: 10%;
-}
-
-.sei{
-  background-color: black;
-  height: 100px;
+.login-btn {
+  background: white;
+  color: #404eed;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
 }
