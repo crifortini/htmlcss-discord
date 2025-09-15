@@ -13,17 +13,20 @@ body {
 }
 
 
-.hero {
-  background-color: #404eed;
+.header {
+  background-image: url(./img/jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 10rem 2rem;
 }
 
 
 .login-btn {
   background: white;
-  color: #404eed;
+  color: black;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -107,13 +110,22 @@ body {
 
 .btn_one{
   background: white;
-  color: #404eed;
+  color: black;
+  border-radius: 7px;
+}
+
+
+.btn_one_end{
+  background-color: #5865f2;
+  color: white;
+  border-radius: 7px;
 }
 
 
 .btn-dark {
   background: #23272a;
   color: white;
+  border-radius: 7px;
 }
 
 
@@ -160,4 +172,24 @@ body {
   text-decoration: none;
   margin-bottom: 0.25rem;
   font-size: 0.9rem;
+}
+
+
+.adventure{
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+
+.adventure h2{
+  margin-bottom: 1rem;
+  background-image: url(./img/stars.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+.section_two h2{
+  text-align: center;
 }
