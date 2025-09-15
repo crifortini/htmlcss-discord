@@ -7,9 +7,7 @@
 
 .debug header{
     height: 100px;
-    background-color: red;
-    margin-right: 75px;
-    margin-left: 75px;
+    background-image: url(./img/jumbo.png);
 }
 .debug .uno,.due,.tre,.quattro,.cinque,.sei{
   border: 3px dotted black;
@@ -26,8 +24,7 @@ button{
 h1{
   text-align: center;
   margin-top: 10%;
-  background-color: red;
-  height: 200px;
+  height: 100px;
   color: white;
 }
 
